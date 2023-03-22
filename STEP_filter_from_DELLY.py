@@ -30,7 +30,7 @@ with open("87.Minor.SVs.vcf",'r') as fd:
             freq=g_list
             a0,b0,c0,d0,e0,f0=stat(freq)
             #print(a0,b0,c0,d0,e0,f0)
-            freq=g_list[4:6]
+            freq=g_list[4:7]
             at,bt,ct,dt,et,ft=stat(freq)
             #print(at,bt,ct,dt,et,ft)
             if dt>0:# and d0<10:
